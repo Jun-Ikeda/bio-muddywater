@@ -1,9 +1,42 @@
+#profile {
+  /* background-color: white; */
+  margin: 0px;
+}
+
+.profileSection {
+  /* background-color: indigo; */
+  display: flex;
+  justify-content: space-between;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+#profileimgContainer {
+  /* background-color: gainsboro; */
+  height: 250px;
+  width: 250px;
+  overflow: hidden;
+  border-radius: 130px;
+  border: 5px white solid;
+  margin-top: -160px;
+  position: relative;
+  box-shadow: 0px 5px 10px grey;
+}
+
 #profileimg {
-  height: 300px;
-  width: 300px;
+  height: 250px;
+  width: 250px;
   object-fit: cover;
-  border-radius: 150px;
-  border: 2px black solid;
-  /* position: absolute;
-  top: -150px; */
+}
+
+#socialMedia {
+  background-color: lightblue;
+  height: 100px;
+  width: 350px;
+}
+
+#profileButtons {
+  background-color: mediumpurple;
+  height: 100px;
+  width: 350px;
 }
