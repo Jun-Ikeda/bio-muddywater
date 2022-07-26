@@ -33,10 +33,66 @@
   background-color: lightblue;
   height: 100px;
   width: 350px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 
+.socialMediaIcon {
+  font-size: 50px;
+}
+#twitterIcon {
+  color: #1DA1F2
+}
+#instagramIcon {
+
+}
+#facebookIcon {
+  color: #4267B2
+
+}
+#linkedinIcon {
+  color: #0077b5
+}
+
+#profileName {
+  margin-bottom: -15px;
+  font-size: xx-large;
+}
+
+/* #profileNameRule {
+  height: 10px;
+  border-radius: 5px;
+  width: 100%;
+} */
+
 #profileButtons {
-  background-color: mediumpurple;
-  height: 100px;
   width: 350px;
+  display: flex;
+  align-items: center;
+}
+/* 
+#profileButtonsRule {
+  height: 100px;
+  width: 10px;
+  border-radius: 5px;
+} */
+
+.profileAffiliation {
+  display: flex;
+  align-items: center;
+}
+
+.profileAffiliationIconContainer {
+  background-color: rgb(163, 163, 163);
+  height: 30px;
+  width: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 5px;
+}
+
+.profileAffiliationIcon {
+  color:rgb(235, 235, 235)
 }

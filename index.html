@@ -3,6 +3,7 @@
 <head>
   <meta charset="utf-8" />
   <title>Muddy water</title>
+  <script src="https://kit.fontawesome.com/e76fa7e282.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" type="text/css" href="style/main.style.css" >
   <link rel="stylesheet" type="text/css" href="style/cover.style.css" >
   <link rel="stylesheet" type="text/css" href="style/profile.style.css" >
@@ -21,18 +22,45 @@
   <div class="content" id="profile">
     <div class="profileSection">
       <div id="profileimgContainer"><img id="profileimg" src="src/profile.jpg" /></div>
-      <div id="socialMedia"></div>
+      <div id="socialMedia">
+        <a href="https://mobile.twitter.com/NotJuneButJun" id="twitterIcon"><i class="socialMediaIcon fa-brands fa-twitter"></i></a>
+        <a href="https://www.instagram.com/notjunebutjun/" id="instagramIcon"><i class="socialMediaIcon fa-brands fa-instagram"></i></a>
+        <a href="https://www.facebook.com/junikeda0121/" id="facebookIcon"><i class="socialMediaIcon fa-brands fa-facebook-f"></i></a>
+        <a href="https://www.linkedin.com/in/jun-ikeda-905b88224/" id="linkedinIcon"><i class="socialMediaIcon fa-brands fa-linkedin-in"></i></a>
+      </div>
     </div>
     <div class="profileSection">
       <section>
-        <h1>Jun Ikeda</h1>
+        <h1 id="profileName">Jun Ikeda</h1>
+        <!-- <hr class="rule" id="profileNameRule"> -->
         <h3>
           Undergraduate student at Caltech<br>
-          Yanai Tadashi Foundation Scholar
+          Yanai Tadashi Foundation Scholar<br>
+          Undergraduate student at UTokyo
         </h3>
       </section>
       <div id="profileButtons">
-
+        <!-- <hr class="rule" id="profileButtonsRule"> -->
+        <div>
+          <a href="https://www.caltech.edu/">
+            <div class="profileAffiliation">
+              <div class="profileAffiliationIconContainer"><i class="fa-solid fa-school profileAffiliationIcon" id="caltechIcon"></i></div>
+              California Institute of Technology
+            </div>
+          </a>
+          <a href="https://www.yanaitadashi-foundation.or.jp/">
+            <div class="profileAffiliation">
+              <div class="profileAffiliationIconContainer"><i class="fa-solid fa-building-columns profileAffiliationIcon" id="yanaiIcon"></i></div>
+              Yanai Tadashi Foundation
+            </div>
+          </a>
+          <a href="https://www.u-tokyo.ac.jp/ja/index.html">
+            <div class="profileAffiliation">
+              <div class="profileAffiliationIconContainer"><i class="fa-solid fa-school profileAffiliationIcon" id="utokyoIcon"></i></div>
+              University of Tokyo
+            </div>
+          </a>
+        </div>
       </div>
     </div>
   </div>
