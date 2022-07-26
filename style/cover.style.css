@@ -1,0 +1,12 @@
+#coverContainer {
+  /* position: fixed; */
+  height: 400px;
+  clip-path: inset(0);
+}
+
+#coverimg {
+  height: 400px;
+  width: 100%;
+  object-fit: cover;
+  position: fixed
+}

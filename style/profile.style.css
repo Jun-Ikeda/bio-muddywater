@@ -1,0 +1,9 @@
+#profileimg {
+  height: 300px;
+  width: 300px;
+  object-fit: cover;
+  border-radius: 150px;
+  border: 2px black solid;
+  /* position: absolute;
+  top: -150px; */
+}
