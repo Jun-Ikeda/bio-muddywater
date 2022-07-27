@@ -1,6 +1,7 @@
 #profile {
   /* background-color: white; */
   margin: 0px;
+  padding: 0px;
 }
 
 .profileSection {
@@ -45,7 +46,11 @@
   color: #1DA1F2
 }
 #instagramIcon {
-
+  color: transparent;
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+  background: -webkit-radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+  background-clip: text;
+  -webkit-background-clip: text;
 }
 #facebookIcon {
   color: #4267B2
@@ -56,8 +61,10 @@
 }
 
 #profileName {
-  margin-bottom: -15px;
-  font-size: xx-large;
+  /* font-size: 50px; */
+}
+#profileTitles {
+  /* font-size: 30px; */
 }
 
 /* #profileNameRule {
@@ -82,6 +89,15 @@
   display: flex;
   align-items: center;
 }
+
+.profileAffiliationLogo {
+  height: 30px;
+  width: 30px;
+  margin: 7px;
+}
+#caltecLogo {}
+#uniqloLogo {}
+#utokyoLogo {}
 
 .profileAffiliationIconContainer {
   background-color: rgb(163, 163, 163);
