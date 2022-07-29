@@ -1,0 +1,65 @@
+#honorsHistory {
+  /* display: flex; */
+  /* justify-content: space-between; */
+  flex-wrap: wrap;
+  /* position: relative; */
+}
+
+#honorsHistoryBox {
+  /* border: 1px blue solid; */
+  display: flex;
+  justify-content: space-between;
+  /* padding: 10px; */
+  /* padding-top: 10px; */
+}
+
+#honorsHistoryYear {
+  /* font-size: 20px; */
+  position: relative;
+  margin-left: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-right: 30px;
+  text-align: right;
+  padding: 0px;
+  justify-content: center;
+  flex: 1;
+  padding-top: 10px;
+  /* border: 1px greenyellow solid; */
+  /* width: 120px; */
+}
+#honorsHistoryYear::after {
+  /* border: 1px gold solid; */
+  content: '●';
+  position: absolute;
+  color: green;
+  font-size: 22px;
+  top: 5px;
+  right: -42px;
+  display: flex;
+  flex-direction: row;
+  align-self: center;
+}
+
+#honorsHistoryDescription {
+  /* border: 1px red solid; */
+  /* margin-left: 50px; */
+  /* width: 70%; */
+  border-left: 3px grey solid;
+  padding-left: 30px;
+  width: 75%;
+  padding-top: 10px;
+}
+
+#honorsHistoryTitle {
+  /* border: 1px black solid; */
+  padding: 0px;
+  margin: 0px;
+}
+
+#honorsHistoryDetail {
+  font-size: small;
+  padding: 0px;
+  margin: 0px;
+}
+
