@@ -32,7 +32,7 @@
   /* border: 1px gold solid; */
   content: '●';
   position: absolute;
-  color: green;
+  color: rgb(52, 88, 44);
   font-size: 22px;
   top: 5px;
   right: -42px;

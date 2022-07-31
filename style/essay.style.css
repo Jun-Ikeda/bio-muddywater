@@ -1,5 +1,12 @@
 .essayTitle {
+  font-size: 20px;
   font-family: 'Times New Roman', Times, serif;
   margin-left: 10%;
   margin-right: 10%;
+}
+
+.essayHyperLink {
+  /* font-size: medium; */
+  /* border: 1px black solid */
+  background-color: navajowhite;
 }

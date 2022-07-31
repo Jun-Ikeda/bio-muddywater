@@ -1,0 +1,24 @@
+#gallery {
+  margin: 0px;
+}
+
+#galleryContainer {
+  display: flex;
+  justify-content: space-around;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.galleryColumn {
+  width: 33%;
+  /* border: 1px black solid; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+}
+
+.galleryImg {
+  width: 100%;
+  margin: 10px;
+}
